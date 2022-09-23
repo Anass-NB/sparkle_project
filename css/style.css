@@ -268,9 +268,16 @@ header .links ul a {
     width: 100%;
     box-shadow: #cebd2694 0px 4px 11px 0px;
     margin: 20px 0;
-    padding: 60px;
+    padding: 30px 20px;
     flex: 1;
-
+    transition: .3s;
+}
+.services-content .serv:hover {
+    transform: translateY(-10px);
+}
+.services-content .serv img {
+    height: 40px;
+    width: 40px;
 }
 .services-content .serv .text p{
     font-size: 0.8rem;
